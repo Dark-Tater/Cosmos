@@ -71,6 +71,9 @@ namespace Cosmos_Graphic_Subsytem
                 /* Let's try to change mode...*/
                 canvas.Mode = new Mode(800, 600, ColorDepth.ColorDepth32);
 
+                /* Clear Screen */
+                canvas.Clear();
+
                 /* A LimeGreen rectangle */
                 pen.Color = Color.LimeGreen;
                 canvas.DrawRectangle(pen, 450, 450, 80, 60);
